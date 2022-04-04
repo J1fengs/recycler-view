@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TugasRecyclerView2</string>
+    
+    <string-array name="application">
+        <item>windows</item>
+        <item>linux</item>
+        <item>ubuntu</item>
+        <item>chess</item>
+        <item>android</item>
+        <item>minecraft</item>
+    </string-array>
+
+</resources>

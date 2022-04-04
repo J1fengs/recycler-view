@@ -1,0 +1,5 @@
+package com.example.tugasrecyclerview2;
+
+public interface RecyclerViewInterface {
+    void onItemClick(int position);
+}
