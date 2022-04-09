@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">TugasRecyclerView2</string>
-    
+
     <string-array name="application">
         <item>windows</item>
         <item>linux</item>
@@ -10,4 +10,9 @@
         <item>minecraft</item>
     </string-array>
 
+    <string-array name="applicationTambahan">
+        <item>eldenring</item>
+        <item>twitter</item>
+        <item>whatsapp</item>
+    </string-array>
 </resources>

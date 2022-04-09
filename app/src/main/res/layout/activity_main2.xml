@@ -4,29 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#F6F6F1"
+    tools:context=".MainActivity2">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview"
-        android:layout_width="407dp"
-        android:layout_height="587dp"
+    <ImageView
+        android:id="@+id/imageViewMenu2"
+        android:layout_width="179dp"
+        android:layout_height="151dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
+        app:layout_constraintVertical_bias="0.235"
+        app:srcCompat="@drawable/android" />
 
-    <Button
-        android:id="@+id/buttonAdd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:backgroundTint="@color/black"
-        android:text="add"
-        app:layout_constraintBottom_toTopOf="@+id/recyclerview"
+    <TextView
+        android:id="@+id/textViewTitleMenu2"
+        android:layout_width="290dp"
+        android:layout_height="124dp"
+        android:paddingStart="50dp"
+        android:text="TextView"
+        android:textSize="40sp"
+        android:padding="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.6" />
 </androidx.constraintlayout.widget.ConstraintLayout>
